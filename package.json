@@ -1,0 +1,36 @@
+{
+  "name": "hotel-crawler",
+  "version": "0.0.1",
+  "description": "Web Crawler for hotel vacancy information",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "watch": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroivorbgrodrigues/hotel-crawler.git"
+  },
+  "keywords": [
+    "nodejs",
+    "crawler",
+    "hotel",
+    "asksuite"
+  ],
+  "author": "Pedro Ivo Galimberti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroivorbgrodrigues/hotel-crawler/issues"
+  },
+  "homepage": "https://github.com/pedroivorbgrodrigues/hotel-crawler#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
